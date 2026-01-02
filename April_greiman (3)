@@ -1,0 +1,168 @@
+april-greiman.html
+@@ -0,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+   <title>Women in Design V2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The line below links our CSS file to this HTML page -->
+    <link href="css/reset.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/connections.css" type="text/css" rel="stylesheet"/>
+    <link href="css/grid.css" type="text/css" rel="stylesheet"/>
+
+
+    <!-- The line below links Google Fonts to our content -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="responsivenav" >
+    <div id="logo">
+    <p>Women in Design</p>
+    </div>
+        <nav>
+          <ul>
+              <li><a href="#fried">Friedländer</a></li>
+              <li><a href="#hische">Hische</a></li>
+              <li><a href="#scher">scher</a></li>
+              <li><a href="april_greiman.html">Greiman</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+    </div>
+    <img src="img/top.jpg" alt="Opening image showing images of texture and abstract typography" class="topimg"/>
+    
+       
+    <header>
+    <h1>Breaking Barriers,</h1>
+    <h2>Shaping trends</h2>
+
+</header>
+
+  <section id="designers"class="designers">
+
+   <a href="elizabeth.html" class="card-link">
+    <article class="designer-card">
+        <img src="img/friedlander.jpg" alt="Portrait of Elizabeth Friedländer">
+        <h3>Elizabeth Friedländer</h3>
+        <p>One of the first women to design a typeface...</p>
+    </article>
+</a>
+
+<a href="jessica-hische.html" class="card-link">
+    <article class="designer-card">
+        <img src="img/hische.jpg" alt="Portrait of Jessica Hische">
+        <h3>Jessica Hische</h3>
+        <p>Illustrator and lettering artist...</p>
+    </article>
+</a>
+               
+  <a href="paula-scher.html" class="card-link">
+    <article class="designer-card">
+        <img src="img/scher.jpg" alt="Portrait of Paula Scher">
+        <h3>Paula Scher</h3>
+        <p>
+            A leading figure in graphic design and branding, known for bold typography
+            and iconic visual systems for clients like MoMA and Citibank.
+        </p>
+    </article>
+</a>
+
+    <a href="april-greiman.html" class="card-link">
+    <article class="designer-card">
+        <img src="img/greiman.jpg" alt="Portrait of April Greiman">
+        <h3>April Greiman</h3>
+        <p>
+            A pioneer of digital design and New Wave typography, Greiman fused technology
+            and visual expression to redefine the graphic design landscape of the 1980s.
+        </p>
+    </article>
+</a>
+    </section>
+    
+    <img class="fullwidth" src="img/hische-main.jpg" alt="a photograph of a rural kitchen">
+          
+    </section>
+</div>
+
+    <section>
+
+         <div class="gridimage">
+        </div>
+
+           
+    </section>
+
+<div class="light">
+    <section>
+        Celebrating the Influence and Creativity of Women in Design
+<p>
+        <span class="leader">Women play a pivotal role</span>, in enriching the field of design
+        with diverse perspectives, creativity, and innovation. Their unique insights and talents
+        challenge traditional norms, profoundly shaping visual communication.
+    </p>
+
+    </section>
+</div>
+<footer> <footer id="contact">
+      <ul class="connections">
+          <!------------- EMAIL ------------------>
+          <li><a href="mailto:cairns-L10@ulster.ac.uk" title="send me an email">
+                  <svg width="36" height="36" viewBox="0 0 36 36">
+              <g></g>
+                    <path  d="M17.902 1.699c-8.949 0-16.203 7.254-16.203 16.203s7.254 16.203 16.203 16.203c8.949 0 16.203-7.254 16.203-16.203 0-8.949-7.254-16.203-16.203-16.203zM9.168 11.487h17.371c0.99 0 1.794 0.699 1.878 1.588l-10.599 4.53-10.532-4.501c0.069-0.903 0.88-1.618 1.881-1.618zM28.434 23.494c0 0.961-0.848 1.739-1.895 1.739h-17.371c-1.047 0-1.895-0.778-1.895-1.739v-9.566l10.558 4.511 0.008-0.013 10.595-4.529v9.597z" fill="#fff"/>
+                </svg>
+                </a>
+                </li>
+            
+                 </li>
+            </ul>
+    
+</footer>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
